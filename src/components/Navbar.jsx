@@ -19,7 +19,7 @@ const Navbar = () => {
           </div>
 
           {/* Center Logo */}
-<div className="text-3xl font-bold tracking-wide font-[Great_Vibes] bg-clip-text text-transparent bg-amber-700 ">
+<div className="text-4xl sm:text-5xl font-[Alex Brush] text-amber-800 tracking-wide drop-shadow-md">
             FabriQ
           </div>
 
