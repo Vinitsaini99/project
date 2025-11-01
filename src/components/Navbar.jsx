@@ -6,19 +6,20 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false)
 
   return (
-    <nav className="backdrop-blur-md bg-gradient-to-r from-amber-900/90 via-sky-800/90 to-green-700/90 text-white/90 shadow-lg fixed w-full z-50">
+    <nav className="backdrop-blur-md bg-gradient-to-r from-amber-700/80 via-amber-500/70 to-yellow-400/70 text-white/90 shadow-md fixed w-full z-50">
+
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           
           {/* Left Links */}
-          <div className="hidden md:flex gap-6 text-lg font-medium">
+          <div className=" md:flex gap-6 text-lg font-medium">
             <Link to="/" className="hover:text-amber-200/90 transition-all">Home</Link>
             <Link to="/about" className="hover:text-amber-200/90 transition-all">About</Link>
             <Link to="/Product" className="hover:text-amber-200/90 transition-all">Product</Link>
           </div>
 
           {/* Center Logo */}
-          <div className="text-3xl font-bold tracking-wide font-[Great_Vibes] bg-clip-text text-transparent bg-gradient-to-r from-yellow-200 via-sky-300 to-green-300 opacity-90">
+<div className="text-3xl font-bold tracking-wide font-[Great_Vibes] bg-clip-text text-transparent bg-amber-700 ">
             FabriQ
           </div>
 
